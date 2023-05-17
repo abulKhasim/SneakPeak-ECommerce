@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
+
+.ProductDetails {
+  background-color: rgb(255, 255, 255);
+  width: 100vw;
+  max-width: 100%;
+  padding: 3vmax;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.ProductDetails > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2vmax;
+  box-sizing: border-box;
+  border: 1px solid white;
+}
+
+/* .ProductDetails .PDImage img {
+  width: 24vmax;
+} */
+
+.ProductDetails > div:last-child {
+  align-items: flex-start;
+}
+/* 
+.CarouselImage {
+  width: 22vmax;
+  display: flex;
+} */
+
+.detailsBlock-1 > h2 {
+  color: rgb(54, 54, 54);
+  font: 600 1.6vmax "Raleway", "Quattrocento", serif;
+  margin: -13px 0 0 0;
+}
+
+.detailsBlock-2Price {
+  font-size: 28px;
+  font-family: serif;
+}
+
+.detailsBlock-1 > p {
+  color: rgba(0, 0, 0, 0.582);
+  font: 200 0.6vmax cursive;
+}
+
+.detailsBlock-2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* border-top: 1px solid rgba(0, 0, 0, 0.205); */
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.205); */
+  width: 70%;
+  margin: 4px 0;
+}
+
+.detailsBlock-2-span {
+  font: 200 0.8vmax cursive;
+  color: rgba(0, 0, 0, 0.699);
+}
+
+.detailsBlock-3 {
+  width: 70%;
+}
+
+.detailsBlock-3 .uniqueClassForSpanPad{
+  padding: 0 15px;
+}
+
+.detailsBlock-3 > h1 {
+  color: rgba(17, 17, 17, 0.795);
+  font: 400 1.8vmax "Raleway", "Quattrocento", serif;
+  margin: 1vmax 0;
+}
+.detailsBlock-3-1 {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+}
+
+.detailsBlock-3-1-1 > button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.616);
+  padding: 0.7vmax 15px;
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+  margin: 10px 0;
+  border-radius: 100%;
+}
+
+.inputChange {
+  display: inline-block;
+  width: 30px;
+}
+
+.detailsBlock-3-1-1 > button:hover {
+  background-color: rgba(0, 0, 0, 0.767);
+}
+
+.detailsBlock-3-1-1 > input {
+  border: none;
+  padding: 1vmax;
+  width: 1vmax;
+  text-align: center;
+  outline: none; 
+  font: 400 0.8vmax "Raleway", "Quattrocento", serif;
+  color: rgba(0, 0, 0, 0.74);
+}
+
+.detailsBlock-3-1 > button:last-child {
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+  background-color: var(--primary-color);
+  font: 500 15px "Raleway", "Quattrocento", serif;
+  border-radius: 20px;
+  padding: 0.5vmax 2vmax;
+  margin: 1vmax;
+  outline: none;
+}
+
+/* .detailsBlock-3-1 > button:last-child:hover {
+  background-color: var(--primary-color);
+} */
+
+.detailsBlock-3 > p {
+  /* border-top: 1px solid rgba(0, 0, 0, 0.205); */
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.205); */
+  padding: 0 0 1vmax 0;
+  color: rgba(0, 0, 0, 0.651);
+  font: 400 1vmax "Raleway", "Quattrocento", serif;
+  margin: 0 0 1px 0;
+}
+
+.detailsBlock-4 {
+  color: rgba(0, 0, 0, 0.897);
+  font: 500 1.2vmax "Raleway", "Quattrocento", serif;
+}
+
+.detailsBlock-4 > p {
+  color: rgba(0, 0, 0, 0.534);
+  font: 300 0.8vmax "Raleway", "Quattrocento", serif;
+}
+
+.submitReview {
+  border: none;
+  background-color: var(--primary-color);
+  font: 500 15px "Raleway", "Quattrocento", serif;
+  border-radius: 20px;
+  padding: 0.6vmax 2vmax;
+  margin: 1vmax 0;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+}
+.submitReview:hover {
+  background-color: var(--primary-color);
+  transform: scale(1.1);
+}
+
+.submitDialog {
+  display: flex;
+  flex-direction: column;
+}
+.submitDialogTextArea {
+  border: 1px solid rgba(0, 0, 0, 0.082);
+  margin: 1vmax 0;
+  outline: none;
+  padding: 1rem;
+  font: 300 1rem "Raleway", "Quattrocento", serif;
+}
+
+.reviewsHeading {
+  color: #000000be;
+  font: 500 1.4vmax "Raleway", "Quattrocento", serif;
+  text-align: center;
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.226); */
+  padding: 1vmax;
+  width: 20vmax;
+  margin: auto;
+  margin-bottom: 4vmax;
+}
+.reviews {
+  display: flex;
+  overflow: auto;
+}
+
+.reviewCard {
+  flex: none;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.226);
+  border: 1px solid rgba(56, 56, 56, 0.116);
+  width: 30vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1vmax;
+  padding: 3vmax;
+}
+.reviewCard > img {
+  width: 5vmax;
+}
+.reviewCard > p {
+  color: rgba(0, 0, 0, 0.836);
+  font: 600 0.9vmax "Raleway", "Quattrocento", serif;
+}
+.reviewCardComment {
+  color: rgba(0, 0, 0, 0.445);
+  font: 300 0.8vmax cursive;
+}
+
+.noReviews {
+  font: 400 1.3vmax "Raleway", "Quattrocento", serif;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.548);
+}
+
+.redColor {
+  color: red;
+}
+
+.greenColor {
+  color: green;
+}
+
+
+
+ select {
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+
+}
+
+
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.slide.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slide img {
+  margin: 0 0 0 150px;
+  width: 24vmax;
+  height: 100%;
+  object-fit: contain;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  background: transparent;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+.prev {
+  left: 114px;
+}
+
+.next {
+  right: 66px;
+}
+
+
+
+
+
+
+
+/* .prodetails {
+  display: flex;
+  margin-top: 20px;
+}
+
+.pro-img-con {
+  width: 50%;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.pro-img-con img {
+  height: 240px;
+  width: auto;
+}
+
+.single-pro-details {
+  width: 50%;
+}
+
+.single-pro-details h4 {
+  padding: 20px 0 10px 0;
+  color: black;
+}
+
+.single-pro-details h2 {
+  font-size: 20px;
+  color: black;
+}
+
+.single-pro-details h6 {
+  margin-top: 10px;
+}
+
+.single-pro-details span {
+  color: black;
+  line-height: 25px;
+}
+
+.single-pro-details select {
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+.single-pro-details input {
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.single-pro-details input:focus {
+  outline: none;
+}
+
+.single-pro-details button {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.single-pro-details i {
+  font-size: 19px;
+  color: rgb(243, 181, 25);
+  margin-top: 20px;
+} */
+
+

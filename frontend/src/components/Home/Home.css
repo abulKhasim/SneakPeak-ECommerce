@@ -1,0 +1,199 @@
+.hero-container {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.header-section {
+  height: 500px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.heading {
+  flex-basis: 550px;
+  margin-left: 50px;
+}
+
+.shop-now-btn {
+  background-color: var(--primary-color);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 12px 24px;
+  font-weight: 700;
+  box-shadow: 0 0 2px black;
+}
+
+.h1-tag {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.image-section {
+  flex-basis: 550px;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.image-section img {
+  width: 350px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.strip {
+  width: 100%;
+  height: 70px;
+  background-color: var(--primary-color);
+  justify-content: center;
+  gap: 100px;
+  color: var(--bg-color);
+  margin-top: 30px;
+}
+
+.stip-content span {
+  margin-left: 10px;
+  font-size: 1.2rem;
+}
+
+
+
+
+.home-heading h2 {
+  margin-top: 25px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.home-heading p {
+  color: black;
+  text-align: center;
+}
+
+#product1 {
+  text-align: center;
+}
+
+#produt1 p {
+  color: black;
+  text-align: center;
+}
+
+#product1 h2 {
+  font-size: 30px;
+}
+
+.product-container {
+  display: flex;
+  margin: 2vmax 115px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.product-container #product1 {
+  width: 277px;
+}
+
+.padding-20 {
+  padding: 20px ;
+}
+
+
+#product1 .pro {
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 0.1px solid var(--secondary-color);
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 15px 0;
+  transition: 0.2s ease;
+  position: relative;
+}
+
+#product1 .pro:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.07);
+}
+
+#product1 .pro img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+#product1 .pro .des {
+  text-align: start;
+  padding: 10px 0;
+}
+
+#product1 .pro .des span {
+  color: #606063;
+  font-size: 12px;
+}
+
+#product1 .pro .des h5 {
+  padding-top: 7px;
+  color: #1a1a1a;
+  font-size: 14px;
+}
+
+#product1 .pro .des i {
+  font-size: 12px;
+  color: rgb(243, 181, 25);
+}
+
+#product1 .pro .des h4 {
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+#product1 .pro .cart {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  background-color: white;
+  color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+
+#product1 .productCardSpan {
+  margin: 0.5vmax;
+  font: 300 0.7vmax "Roboto";
+}
+
+.button-container {
+  text-align: center;
+}
+
+.exploreMClass {
+  background-color: var(--primary-color); 
+  border: none; 
+  color: white; 
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  border-radius: 20px; 
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2); 
+  transition: all 0.3s ease-in-out; 
+}
+
+.exploreMClass:hover {
+  background-color:#225722; 
+  cursor: pointer; 
+  transform: scale(1.1); 
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.3); 
+}

@@ -14,10 +14,8 @@ import MetaData from "../layout/MetaData";
 
 const categories = [
   "Jordan",
-  "Casual",
   "Running",
-  "Formal",
-  "Shoe",
+  "Training & Gym",
 ];
 
 const Products = ({ match }) => {
@@ -40,7 +38,6 @@ const Products = ({ match }) => {
     // filteredProductsCount,
   } = useSelector((state) => state.products);
 
-  const { id } = useParams();
   const {keyword} = useParams();
 
   const setCurrentPageNo = (e) => {

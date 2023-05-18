@@ -31,10 +31,8 @@ const NewProduct = () => {
 
   const categories = [
     "Jordan",
-    "Casual",
     "Running",
-    "Formal",
-    "Shoe",
+    "Training & Gym",
   ];
 
   useEffect(() => {

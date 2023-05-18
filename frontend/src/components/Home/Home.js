@@ -8,6 +8,9 @@ import { useSelector, useDispatch } from "react-redux";
 import Loader from "../layout/loader/Loader";
 import { useAlert } from "react-alert";
 import { Link } from "react-router-dom";
+import Jordan from "../../images/jordan.png"
+import { FaLock, FaShuttleVan } from 'react-icons/fa';
+
 
 const Home = () => {
   const alert = useAlert();
@@ -41,30 +44,28 @@ const Home = () => {
               </a>
             </div>
             <div className="image-section">
-              {/* <video width="320" height="240" controls>
-                <source src="movie.mp4" type="video/mp4" />
-              </video> */}
+              <img src={Jordan} alt="hero"></img>
             </div>
           </header>
 
           <div className="strip flex">
             <div className="stip-content">
-              <i className="fa-solid fa-lock"></i>
+              <FaLock/>
               <span>Secure Environment</span>
             </div>
 
             <div className="stip-content">
-              <i className="fa-solid fa-truck-fast"></i>
+              <FaShuttleVan/>
               <span>Free Delivery</span>
             </div>
 
             <div className="stip-content">
-              <i className="fa-solid fa-rotate-left"></i>
+              {/* <BsArrowCounterclockwise/> */}
               <span>Easy Returns</span>
             </div>
 
             <div className="stip-content">
-              <i className="fa-solid fa-credit-card"></i>
+              <FaLock/>
               <span>Secure Payment</span>
             </div>
           </div>
